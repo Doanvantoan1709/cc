@@ -1,0 +1,152 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+    width: 1173px;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.menu{
+    width: 998px;
+    margin-top: 20px;
+}
+
+.flex{
+    margin-left: 40px;
+}
+
+.maofuk{
+    margin-top: 10px;
+    float: left;
+}
+
+img.logo{
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+
+}
+
+img.image{
+    height: 15px;
+    width: 15px;
+    float: left;
+    margin-right: 18px;
+    margin-top: 2px;
+}
+
+header{
+    height: 50px;
+    width: 1173px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+nav{
+    text-decoration: none;
+    display: flex;
+    width: 1173px;
+    box-sizing: border-box;
+
+}
+
+.container{
+    max-width: 1440px;
+}
+
+
+i{
+   float: right;
+   margin-top: 5px;
+   font-size: 20px;
+   
+}
+
+a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 20px; 
+}
+
+ul.horizontal{
+    display: flex;
+    list-style-type: none; /* loại bỏ kiểu danh sách mặc định */
+    padding: 0; /* loại bỏ padding mặc định */
+    margin: 0; /* loại bỏ margin mặc định */
+}
+
+ul.horizontal2{
+    display: flex;
+    list-style-type: none; /* loại bỏ kiểu danh sách mặc định */
+    padding: 0; /* loại bỏ padding mặc định */
+    margin: 0; /* loại bỏ margin mặc định */
+}
+
+ul.horizontal3{
+    display: flex;
+    list-style-type: none; /* loại bỏ kiểu danh sách mặc định */
+    padding: 0; /* loại bỏ padding mặc định */
+    margin: 0; /* loại bỏ margin mặc định */
+}
+
+.content{
+    display: flex;
+    list-style-type: none; /* loại bỏ kiểu danh sách mặc định */
+    padding: 0; /* loại bỏ padding mặc định */
+    margin: 0; /* loại bỏ margin mặc định */
+}
+
+img.item{
+    height: 30px;
+    width: 30px;
+    margin-left: -30px;
+    margin-top: 2px;
+}
+
+img{
+    margin-bottom: 20px;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+}
+
+button:hover{
+    background-color: #1959ded0;
+    cursor: pointer;
+}
+
+.menu a:first-child {
+    color: blue; 
+}
+
+.menu a:hover{
+    color: blue; 
+}
